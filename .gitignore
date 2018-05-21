@@ -1,0 +1,43 @@
+# Copyright 2018 Xeno Innovations, Inc.
+#
+
+# Visual Studio User-specific files
+*.suo
+*.user
+*.sln.docstates
+*.opensdf
+*.sdf
+*.~vsdx
+*.userprefs
+*.vbw
+*.ipch
+
+# Other extensions
+*~
+*.swp
+*.bak
+*.orig
+*.lnk
+
+# Build results
+[Oo]utput/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+.vs/
+
+## NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+!**/packages/repositories.config
+
+# Custom ignore crap
